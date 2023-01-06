@@ -21,6 +21,7 @@ body {
     line-height: 20px;
     border-radius: 15px;
     background-color: hsl(0,0%,90.98%);
+    font-family: "Manrope";
     
 }
 
@@ -61,7 +62,7 @@ body {
 
 .txt .pessoa .imgAvatar {
     display: flex;
-    width: 42%;
+    width: 45%;
     justify-content: space-between;
 }
 
@@ -70,6 +71,70 @@ body {
 }
 
 .pessoa #button {
-    background-color: lightsalmon;
+    background-color: rgb(200,203,186);
     border-radius: 50px;
+    padding: 8px;
+    margin-right: 4%;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.share {
+    background-color: rgb(78, 78, 78);
+    padding: 4%;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+    top: 50%;
+    left: 60%;
+    opacity: 0.92;
+    box-shadow: 5px 5px 5px rgb(37, 37, 37);
+
+}
+
+.share p {
+    color: rgb(200,203,186);
+}
+
+.share .shareIcons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 52%;
+}
+
+.share .triangle {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(78, 78, 78);
+    position: absolute;
+    top: 80%;
+    left: 46%;
+    opacity: 0.92;
+    transform: rotateY(0deg) rotate(45deg);
+}
+
+.pessoa #buttonClose {
+    background-color: rgb(210, 218, 204);
+    border-radius: 50px;
+    padding: 8px;
+    margin-right: 4%;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: none;
+    display: none;
+}
+
+.share #buttonCloseOne {
+    display: none;
 }
