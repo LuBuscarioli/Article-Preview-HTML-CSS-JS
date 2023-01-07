@@ -46,6 +46,17 @@ body {
     font-weight: 700;
 }
 
+.txt .titulo a {
+    text-decoration: none;
+    color: black;
+}
+
+.txt .titulo a:hover {
+    text-decoration: underline;
+    color: rgb(37,200,122);
+    transition: 200ms;
+}
+
 .txt .descricao {
     font-size: 14px;
     margin-bottom: 3%;
@@ -81,6 +92,11 @@ body {
     outline: none;
     color: white;
     border: none;
+}
+
+.pessoa #button:hover {
+    padding: 12px;
+    transition: 200ms;
 }
 
 .share {
