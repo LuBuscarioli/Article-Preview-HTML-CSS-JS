@@ -1,7 +1,19 @@
-var buttonOpen = document.querySelector('#button')
+var button = document.querySelector('#button')
+var abaShare = document.querySelector('.share')
+var buttonClose = document.querySelector('#buttonClose')
+var buttonCloseOne = document.querySelector('#buttonCloseOne')
 
-function showShare () {
-    document.querySelector('.share').style.display = 'flex'
+button.addEventListener('click', function (){
+    abaShare.style.display = 'flex'
+    buttonClose.style.display = 'inline-block'
+    button.style.display = 'none'
+})
+
+function close () {
+    abaShare.style.display = 'none'
+    button.style.display = 'inline-block'
+    buttonClose.style.display = 'none'
 }
 
-buttonOpen.onclick = showShare
+buttonClose.addEventListener('click', close)
+buttonCloseOne.addEventListener('click', close)
