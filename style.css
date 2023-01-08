@@ -29,7 +29,7 @@ body {
     border-radius: 10px 0px 0px 10px;
 }
 
-.txt {
+.content {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -39,30 +39,30 @@ body {
     position: relative;
 }
 
-.txt .titulo {
+.content .titulo {
     font-family: "Manrope", sans-serif;
     font-size: 19px;
     margin-bottom: 5%;
     font-weight: 700;
 }
 
-.txt .titulo a {
+.content .titulo a {
     text-decoration: none;
     color: black;
 }
 
-.txt .titulo a:hover {
+.content .titulo a:hover {
     text-decoration: underline;
     color: rgb(37,200,122);
     transition: 200ms;
 }
 
-.txt .descricao {
+.content .descricao {
     font-size: 14px;
     margin-bottom: 3%;
 }
 
-.txt .pessoa {
+.content .pessoa {
     width: 100%;
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@ body {
     margin-top: 5%;
 }
 
-.txt .pessoa .imgAvatar {
+.content .pessoa .imgAvatar {
     display: flex;
     width: 45%;
     justify-content: space-between;
@@ -173,7 +173,7 @@ body {
         border-radius: 10px 10px 0px;
 
     }
-    .txt {
+    .content {
         margin-top: 5%;
         width: 90%;
         display: flex;
@@ -181,7 +181,7 @@ body {
         align-items: center;
         justify-content: center;
     }
-    .txt .pessoa .imgAvatar {
+    .content .pessoa .imgAvatar {
         width: 58%;
     }
 
