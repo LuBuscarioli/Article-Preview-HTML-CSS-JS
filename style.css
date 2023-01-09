@@ -73,7 +73,6 @@ body {
 
 .content .pessoa .imgAvatar {
     display: flex;
-    width: 45%;
     justify-content: flex-start;
 }
 
@@ -163,7 +162,7 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1064px) {
     .principal {
         width: 85%;
         display: flex;
