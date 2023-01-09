@@ -1,7 +1,7 @@
 # Article Preview for website
 Link de acesso: https://article-preview-interlagos-best-sectors.vercel.app/
 
-Projeto baseado em um dos desafios da plataforma [Frontend Mentor](https://www.frontendmentor.io)
+Projeto baseado em um dos desafios da plataforma [Frontend Mentor](https://www.frontendmentor.io).
 O projeto foi adapado para ser responsivo em todas as resoluções, porem se comporta da melhor forma em 1440px na versão desktop, e 375px na versão mobile.
 
 Há interação com `hover` (passar o mouse) no título e no botão share. Na versão mobile também há interação ao toque nos mesmos elementos.
