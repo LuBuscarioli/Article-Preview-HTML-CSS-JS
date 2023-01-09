@@ -1,7 +1,7 @@
-var button = document.querySelector('#button')
-var abaShare = document.querySelector('.share')
-var buttonClose = document.querySelector('#buttonClose')
-var buttonCloseOne = document.querySelector('#buttonCloseOne')
+let button = document.querySelector('#button')
+let abaShare = document.querySelector('.share')
+let buttonClose = document.querySelector('#buttonClose')
+let buttonCloseTwo = document.querySelector('#buttonCloseTwo')
 
 button.addEventListener('click', function (){
     abaShare.style.display = 'flex'
@@ -16,7 +16,7 @@ function close () {
 }
 
 buttonClose.addEventListener('click', close)
-buttonCloseOne.addEventListener('click', close)
+buttonCloseTwo.addEventListener('click', close)
 
 /*
 var buttonOpen = document.querySelector('#button')
