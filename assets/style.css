@@ -95,11 +95,11 @@ body {
     outline: none;
     color: white;
     border: none;
+    transition: all .2s ease;
 }
 
 .pessoa #button:hover {
     padding: 11px;
-    transition: 200ms;
 }
 
 .share {
